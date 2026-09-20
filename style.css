@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+img {
+    height: 100px;
+    width: 200px;
+}
+@media screen and (max-width: 600px){
+    body {
+        text-align: center;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        width: 100px;
+    }
+}
+
+header h1{
+    text-align: center;
+}
+
+.SGIN{
+    width: 300px;
+    height:300px;
+    border:1px solid #000000;
+    transition: 299ms;
+}
+.SGIN h2{
+    text-align: center;
+}
+.user-name {
+    transform: scale(200%);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transition: 200ms;
+    border-radius: 100px;
+}
+.user-name:hover{
+    border-color: #0000ff;
+}
+.password{
+    transform: scale(200%);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transition: 200ms;
+    border-radius: 100px;
+}
+.password:hover{
+    border-color:#0000ff;
+    transition: 299ms;
+}
+.finish1{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.finish {
+    transform: scale(200%);
+}
+.finish a {
+    text-decoration: none;
+}
